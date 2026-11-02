@@ -1,0 +1,197 @@
+// ==========================================
+// 🛍️ PRODUCTS DATA (WINTER COLLECTION)
+// ==========================================
+// Is file mein humare 20 winter sweaters ka data hai:
+// - 10 items Men (Mardon) ke liye hain
+// - 10 items Women (Khawateen) ke liye hain
+// Har item ka aik unique id, name, category, price, image aur description hai.
+
+export const products = [
+  // ----------------------------------------
+  // 🧔 MEN'S WINTER COLLECTION (10 ITEMS)
+  // ----------------------------------------
+  {
+    id: 1,
+    name: "Men's Cable Knit Crewneck Sweater",
+    category: "men",
+    price: 3499,
+    rating: 4.8,
+    description: "Pure wool cable-knit sweater to keep you warm and stylish in harsh winters.",
+    image: "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    id: 2,
+    name: "Men's Charcoal Cashmere Turtleneck",
+    category: "men",
+    price: 4200,
+    rating: 4.9,
+    description: "Premium cashmere high-neck sweater with a sleek slim fit design.",
+    image: "https://images.unsplash.com/photo-1614975058789-41316d0e2e9c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    id: 3,
+    name: "Men's Ribbed Wool Pullover",
+    category: "men",
+    price: 2999,
+    rating: 4.6,
+    description: "Classic ribbed design with breathable thermal insulation for daily wear.",
+    image: "https://images.unsplash.com/photo-1576995853123-5a10305d93c0?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    id: 4,
+    name: "Men's Vintage Button Cardigan",
+    category: "men",
+    price: 3799,
+    rating: 4.7,
+    description: "Retro button-up cardigan with side pockets, perfect for office and casual chill.",
+    image: "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    id: 5,
+    name: "Men's Nordic Pattern Wool Jumper",
+    category: "men",
+    price: 3899,
+    rating: 4.5,
+    description: "Traditional Nordic geometric pattern sweater made from 100% organic wool.",
+    image: "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    id: 6,
+    name: "Men's Heavyweight Fleece Hoodie",
+    category: "men",
+    price: 2850,
+    rating: 4.8,
+    description: "Thick sherpa fleece lined hoodie with kangaroo pockets for freezing evenings.",
+    image: "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    id: 7,
+    name: "Men's Quarter-Zip Merino Pullover",
+    category: "men",
+    price: 3999,
+    rating: 4.7,
+    description: "Ultra-fine merino wool with a stylish brass quarter-zip collar.",
+    image: "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    id: 8,
+    name: "Men's Thermal Waffle Knit Sweater",
+    category: "men",
+    price: 2599,
+    rating: 4.4,
+    description: "Textured waffle weave sweater that traps body heat for optimal warmth.",
+    image: "https://images.unsplash.com/photo-1516826957135-700dedea698c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    id: 9,
+    name: "Men's Classic V-Neck Wool Sweater",
+    category: "men",
+    price: 3199,
+    rating: 4.6,
+    description: "Formal V-neck knitwear designed to look sharp over button-down collared shirts.",
+    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    id: 10,
+    name: "Men's Fisherman Chunky Knit Sweater",
+    category: "men",
+    price: 4499,
+    rating: 4.9,
+    description: "Heavy chunky rib-knit sweater crafted for maximum durability and frosty weather.",
+    image: "https://images.unsplash.com/photo-1520975916090-3105956dac38?auto=format&fit=crop&w=600&q=80"
+  },
+
+  // ----------------------------------------
+  // 👩 WOMEN'S WINTER COLLECTION (10 ITEMS)
+  // ----------------------------------------
+  {
+    id: 11,
+    name: "Women's Oversized Chunky Knit Sweater",
+    category: "women",
+    price: 1599,
+    rating: 4.9,
+    description: "Super soft oversized loose sweater on hanger, ultra-cozy winter aesthetic.",
+    image: "https://images.unsplash.com/photo-1611312449297-a69dc9c3987b?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    id: 12,
+    name: "Women's Cream Cable Turtleneck",
+    category: "women",
+    price: 2950,
+    rating: 4.8,
+    description: "Elegant cream turtleneck with intricate cable stitching and full warmth.",
+    image: "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    id: 13,
+    name: "Women's Pastel Mohair Cardigan",
+    category: "women",
+    price: 1100,
+    rating: 4.7,
+    description: "Dreamy fluffy mohair cardigan hanging on wooden hook with aesthetic buttons.",
+    image: "https://images.unsplash.com/photo-1631541909061-71e349d1f203?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    id: 14,
+    name: "Women's Soft Cashmere Wool Stack",
+    category: "women",
+    price: 2500,
+    rating: 4.9,
+    description: "Feather-light yet deeply warm 100% pure grade cashmere folded knitwear.",
+    image: "https://images.unsplash.com/photo-1517677208171-0bc6725a3e60?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    id: 15,
+    name: "Women's Elegant Modest Winter Coat Dress",
+    category: "women",
+    price: 4899,
+    rating: 4.9,
+    description: "Full length, graceful modest winter coat with complete coverage and warmth.",
+    image: "https://images.unsplash.com/photo-1591950613361-7b388b86ed55?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    id: 16,
+    name: "Women's Pastel Knitted Collection",
+    category: "women",
+    price: 2450,
+    rating: 4.7,
+    description: "Curated winter knit sweaters displayed neatly on boutique hangers.",
+    image: "https://images.unsplash.com/photo-1582719188393-bb71ca45dbb9?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    id: 17,
+    name: "Women's Winter Wool Knit & Scarf",
+    category: "women",
+    price: 1899,
+    rating: 4.5,
+    description: "Pure wool cable knit sweater with matching warm winter muffler scarf.",
+    image: "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    id: 18,
+    name: "Women's Nordic Weave Cozy Pullover",
+    category: "women",
+    price: 3199,
+    rating: 4.6,
+    description: "Cozy wool texture sweater flat lay designed for modest everyday winter comfort.",
+    image: "https://images.unsplash.com/photo-1608256246200-53e635b5b65f?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    id: 19,
+    name: "Women's Fluffy Alpaca Crewneck Sweater",
+    category: "women",
+    price: 4350,
+    rating: 4.8,
+    description: "Luxurious brushed alpaca wool sweater product shot with full length sleeves.",
+    image: "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    id: 20,
+    name: "Women's Longline Duster Cardigan",
+    category: "women",
+    price: 3699,
+    rating: 4.9,
+    description: "Long knit duster cardigan with deep pockets and complete modest coverage.",
+    image: "https://images.unsplash.com/photo-1544441893-675973e31985?auto=format&fit=crop&w=600&q=80"
+  }
+];
